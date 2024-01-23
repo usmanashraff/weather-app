@@ -1,0 +1,112 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+}
+H1{
+    margin-bottom: 40PX;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.763);
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+main{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(100deg, rgb(84, 84, 139), rgb(22, 77, 197),rgb(45, 137, 194),rgb(33, 48, 61));
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+   /* border: 1px solid red; */
+   padding: 20px;
+   width: 400px;
+   /* height: 350px; */
+   max-width: 400px;
+   /* max-height: 400px; */
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+   box-shadow: 0px 0px 7px black;
+   border-radius: 10px;
+   flex-direction: column;
+   background-color: rgba(255, 255, 255, 0);
+   /* position: relative; */
+
+}
+input[type=search]{
+    border: none;
+    outline: none;
+    font-size: 20px;
+    background-color: rgba(0, 79, 248, 0);
+    border-radius: 20px;
+    color: rgb(220, 211, 211);
+    text-transform: capitalize;
+    height: 100%;
+    font-family: sans-serif;
+    padding: 5px 30px;
+    width: 80%;
+}
+.searchbox{
+    /* border: 1px solid red; */
+    margin-bottom: 90px;
+    width: 90%;
+    height: 45px;
+    /* padding: 0px 10px; */
+    border-radius: 20px;
+    background-color: rgba(0, 79, 248, 0.596);
+}
+.fa-solid:hover{
+    color: rgb(220, 211, 211);
+    transition: all .4s;
+    transform: scale(1.1);
+}
+.fa-solid{
+    cursor: pointer;
+    font-size: 24px;
+    padding: 10px 18px;
+    color: rgb(193, 184, 184);
+}
+.databox
+{
+    margin-top: -80px;
+    /* border: 1px solid red; */
+   padding: 20px 15px;
+   /* position: absolute; */
+}
+
+.databox #name{
+    font-size: 40px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    /* background-image: linear-gradient(blue, red); */
+    /* background-clip: text; */
+    /* box-shadow:  0px 0px 2px rgb(10, 9, 1); */
+    color: rgb(161, 159, 155);
+    margin-bottom: 20px;
+}
+#temp, #des, #speed
+{
+    margin: 0px;
+    font-size: 23px;
+    font-family: sans-serif;
+    color: rgba(255, 255, 255, 0.46);
+}
+#img{
+    width: 60px;
+}
+.cc{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#des{
+    margin-left: 20px;
+}
+/* #loading{
+    height: 200px;
+} */
